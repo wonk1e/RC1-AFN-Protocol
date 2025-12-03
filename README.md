@@ -1,4 +1,4 @@
-===== Protocolo de Aplicação Selectiva (AFN/ Selective Repeat ARQ) ====
+# ===== Protocolo de Aplicação Selectiva (AFN/ Selective Repeat ARQ) ====
 
 O AFN (Aplicação de Frames Negativos) ou Selective Repeat ARQ é um protocolo de controlo de erros que permite que o receptor peça apenas os frames (pacotes) que chegaram com erros ou não chegaram, em vez de repetir tudo o que veio depois.
 
@@ -8,7 +8,7 @@ O AFN (Aplicação de Frames Negativos) ou Selective Repeat ARQ é um protocolo 
 	* quando se pretende aumentar o throughput
 
 
-# Modo de Funcionamento
+## Modo de Funcionamento
 O funcionamento está dividido em 6 partes. Cada parte corresponde a um passo lógico do protocolo.
 Estas partes são:
 
